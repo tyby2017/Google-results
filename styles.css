@@ -1,0 +1,75 @@
+
+
+
+body {
+    font-family: sans-serif;
+    overflow:hidden;
+    
+}
+
+header {   
+    padding:20px;
+    border-bottom: 1px solid lightgray;
+
+}
+
+#google-logo {
+    width:100px;
+    float:left;
+    position:relative;
+    top:8px;   
+}
+
+header div {
+    float:right;
+}
+
+header input {
+    font-size: 1.1rem;
+    padding-left:20px;
+    margin-left: 20px;
+    width:650px;
+    height:40px;    
+    box-shadow:  1px 1px 1px 1px lightgray;
+    border-radius:30px;
+    border-style:solid;
+    
+}
+header input:hover {
+    box-shadow:2px 2px 2px 2px rgb(216, 214, 214);
+}
+
+header input:focus {
+    outline: none;
+}
+
+#t {
+    position:relative;
+    top:5px;
+}
+
+header nav {
+    padding-top:30px;
+    position:relative;
+    left:130px;
+}
+
+header nav a {
+    text-decoration:none;
+    padding:7px;
+}
+
+header nav button {
+    background-color: white;
+    border:none;
+    font-size:1em;
+    padding:4px 10px;
+    cursor:pointer;
+}
+
+header nav button:hover {
+    background-color: rgb(238, 237, 237);    
+}
+
+
+
