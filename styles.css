@@ -1,16 +1,26 @@
 
+* {
+    margin:0;
+    padding:0;
+}
+a {
+    color:gray;
+}
+
+p {
+    color:rgb(68, 67, 67);
+}
 
 
 body {
     font-family: sans-serif;
-    overflow:hidden;
-    
+    overflow-x:hidden;    
 }
 
 header {   
     padding:20px;
     border-bottom: 1px solid lightgray;
-
+    margin-bottom: 10px;
 }
 
 #google-logo {
@@ -70,6 +80,32 @@ header nav button {
 header nav button:hover {
     background-color: rgb(238, 237, 237);    
 }
+
+
+main {
+    width:35%;
+    position:relative;
+    left:8%;
+}
+
+main .result {
+    margin:20px 0px;
+}
+
+main .result-header {
+    text-decoration: none;
+    color:rgb(9, 9, 185);
+}
+
+main .result-header h3 {
+    margin:3px 0px;
+    font-weight: normal;
+}
+
+main .result-header:hover{
+    text-decoration: underline;
+}
+
 
 
 
