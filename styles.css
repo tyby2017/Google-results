@@ -130,3 +130,29 @@ main .result-header:hover{
 #similar-content a:hover {
     text-decoration: underline;
 }
+
+#google-search-image img{
+    padding-top: 20px;
+    position:relative;
+    left:320px;
+}
+
+footer {
+    background-color: rgb(242, 244, 247);
+    height:50px;    
+}
+
+#footer-links {
+   position:relative;
+   left:160px;
+   top:15px;
+}
+
+footer a{
+    padding-right:30px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:black;
+}
