@@ -82,7 +82,7 @@ header nav button:hover {
 }
 
 
-main {
+main, #similar-searches {
     width:35%;
     position:relative;
     left:8%;
@@ -106,6 +106,27 @@ main .result-header:hover{
     text-decoration: underline;
 }
 
+#similar-searches h3 {
+    font-weight: normal;
+}
 
+#similar-content {
+    padding-top:20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr) ;
+    gap:10px;
+}
 
+#similar-content a{
+    background-color:rgb(242, 244, 247);
+    color:black;
+    text-align: left;
+    padding:10px 0px 0px 30px;;
+    text-decoration:none;
+    border-radius: 50px;
+}
 
+#similar-content a:hover {
+    text-decoration: underline;
+}
